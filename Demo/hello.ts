@@ -89,3 +89,29 @@ interviewdetails1.map((interview)=>{
 let [name,role,dur]=interview;
 console.log(name,role,dur);
 })
+
+
+// Interfaces
+interface Student{
+    studentname:string,
+    studentno:number
+}
+let a:Student={studentname:"prasad",studentno:18}
+console.log(a);
+
+
+interface projectdetails{
+    projectname:string,
+    title:string,
+    stack:string[],
+    features:string[]
+}
+let details:projectdetails={
+    projectname:"Ai",
+    title:"resume builder",
+    stack:["html","css","js","gemini"],
+    features:["analyze","build","scoring"]
+}
+console.log(details);
+
+
